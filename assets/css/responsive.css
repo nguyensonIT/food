@@ -1,0 +1,54 @@
+/* Mobile */
+@media only screen and (max-width : 739px){
+    .row{
+        margin-left: 24px;
+        margin-right: 24px;
+    }
+    .step__list{
+        margin-bottom: 20px;
+    }
+    .actor__name{
+        margin: 30px 0;
+    }
+    .actor{
+        padding: 50px 35px;
+    }
+    .actor__desc{
+        margin: 0;
+        text-align: justify;
+    }
+    .actor__img-image{
+        width: 100%;
+    }
+    .footer .col{
+        margin: 0;
+    }
+    .footer {
+        margin: 60px 0;
+    }
+    
+}
+
+/* Tablet */
+@media only screen and (min-width : 740px) and (max-width : 1023px){
+    .header{
+        justify-content: space-between;
+        padding: 0 12px;
+        }
+    .row {
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+    .actor__desc{
+        margin: 15px 0 0;
+    }
+    .wide{
+        width: unset;
+    }
+}
+
+/* PC */
+@media only screen and (min-width: 1024px){
+
+}
+ 

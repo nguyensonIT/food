@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-6.2.0-web/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="app">
+        <!-- Header -->
+        <div class="header">
+            <input type="checkbox" hidden id="nav__mobile" class="bars-checked">
+
+            <!-- category -->
+            <div class="category">
+                <label for="nav__mobile" class="category__close">Close Menu</label>
+                <ul class="category__list">                    
+                    <li class="category__list-item">
+                        <a href="" class="category__list-item_link">Food</a>
+                    </li>
+                    <li class="category__list-item">
+                        <a href="" class="category__list-item_link"> About</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- Overley -->
+            <label for="nav__mobile" class="header__overley"></label>
+            <!-- end overley -->
+            <label for="nav__mobile" class="bars">
+                <span class="bars___icon">
+                    <i class="fa-solid fa-bars"></i>
+                </span>
+            </label>
+            <span class="tittle">My Food</span>
+            <span class="mail">Mail</span>
+        </div>                 
+        
+        <!-- Container -->
+        <div class="content">
+            <!-- product -->
+            <div class="product">
+                <div class="grid wide">
+                    <div class="row">
+                        <div class="col l-3 m-3 c-12">
+                            <div class="product__item">
+                                <div class="product__item-img">
+                                    <img src="./assets/img/sandwich.jpg" alt="picture" class="product__item-image">
+                                </div>
+                                <span class="product__item-name">The Perfect Sandwich, A Real NYC Classic</span>
+                                <p class="product__item-desc">Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+                            </div>
+                            
+                        </div>
+                        <div class="col l-3 m-3 c-12">
+                            <div class="product__item">
+                                <div class="product__item-img">
+                                    <img src="./assets/img/sandwichh.jpg" alt="picture" class="product__item-image">
+                                </div>
+                                <span class="product__item-name">Let Me Tell You About This Steak</span>
+                                <p class="product__item-desc">Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+                            </div>
+                            
+                        </div>
+                        <div class="col l-3 m-3 c-12">
+                            <div class="product__item">
+                                <div class="product__item-img">
+                                    <img src="./assets/img/sandwichh.jpg" alt="picture" class="product__item-image">
+                                </div>
+                                <span class="product__item-name">Cherries, interrupted</span>
+                                <p class="product__item-desc">Lorem ipsum text praesent tincidunt ipsum lipsum. What else?</p>
+                            </div>
+                            
+                        </div>
+                        <div class="col l-3 m-3 c-12">
+                            <div class="product__item">
+                                <div class="product__item-img">
+                                    <img src="./assets/img/wine.jpg" alt="picture" class="product__item-image">
+                                </div>
+                                <span class="product__item-name">Once Again, Robust Wine and Vegetable Pasta</span>
+                                <p class="product__item-desc">Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+                            </div>
+                            
+                        </div>
+                        <div class="col l-3 m-3 c-12">
+                            <div class="product__item">
+                                <div class="product__item-img">
+                                    <img src="./assets/img/salmon.jpg" alt="picture" class="product__item-image">
+                                </div>
+                                <span class="product__item-name">All I Need Is a Popsicle</span>
+                                <p class="product__item-desc">Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+                            </div>
+                            
+                        </div>
+                        <div class="col l-3 m-3 c-12">
+                            <div class="product__item">
+                                <div class="product__item-img">
+                                    <img src="./assets/img/popsicle.jpg" alt="picture" class="product__item-image">
+                                </div>
+                                <span class="product__item-name">Salmon For Your Skin</span>
+                                <p class="product__item-desc">Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+                            </div>
+                            
+                        </div>
+                        <div class="col l-3 m-3 c-12">
+                            <div class="product__item">
+                                <div class="product__item-img">
+                                    <img src="./assets/img/croissant.jpg" alt="picture" class="product__item-image">
+                                </div>
+                                <span class="product__item-name">The Perfect Sandwich, A Real Classic</span>
+                                <p class="product__item-desc">Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+                            </div>
+                            
+                        </div>
+                        <div class="col l-3 m-3 c-12">
+                            <div class="product__item">
+                                <div class="product__item-img">
+                                    <img src="./assets/img/cherries.jpg" alt="picture" class="product__item-image">
+                                </div>
+                                <span class="product__item-name">Le French</span>
+                                <p class="product__item-desc">Lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Step -->
+            <div class="step">
+                <ul class="step__list">
+                    <li class="step__list-item">
+                        <a href="#" class="step__list-item_link ">
+                            <i class="step__list-item_icon fa-solid fa-angles-left"></i>
+                        </a>
+                    </li>
+                    <li class="step__list-item ">
+                        <a href="#" class="step__list-item_link step__list-item_link--active">
+                            1
+                        </a>
+                    </li>
+                    <li class="step__list-item">
+                        <a href="#" class="step__list-item_link">
+                            2
+                        </a>
+                    </li>
+                    <li class="step__list-item">
+                        <a href="#" class="step__list-item_link">
+                            3
+                        </a>
+                    </li>
+                    <li class="step__list-item">
+                        <a href="#" class="step__list-item_link">
+                            4
+                        </a>
+                    </li>
+                    <li class="step__list-item">
+                        <a href="#" class="step__list-item_link">
+                            <i class="step__list-item_icon fa-solid fa-angles-right"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!-- Actor -->
+            <div class="actor">
+                <span class="actor__name">
+                    About Me, The Food Man
+                </span>
+                <span class="actor__img">
+                    <img src="./assets/img/Manchef.jpg" alt="picture" class="actor__img-image">
+                </span>
+                <span class="actor__tittle">
+                    I am Who I Am!
+                </span>
+                <i class="actor__slogan">
+                    With Passion For Real, Good Food
+                </i>
+                <p class="actor__desc">
+                    Just me, myself and I, exploring the universe of unknownment. I have a heart of love and an interest of lorem ipsum and mauris neque quam blog. I want to share my world with you. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.
+                </p>
+            </div>
+            
+        </div>
+        <!-- Footer -->
+        <div class="footer">
+            <div class="grid wide">
+                <div class="row">
+                    <div class="col l-4 m-4 c-12">
+                        <div class="footer__Footer">
+                            <span class="footer__tittle">FOOTER</span>
+                            <p class="footer__desc">Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+                            <p class="footer__powered">Powered by <a href="" class="footer__powered-link">w3.css</a></p>
+                        </div>                        
+                    </div>
+                    <div class="col l-4 m-4 c-12">
+                        <div class="footer__Blog-posts">
+                            <span class="footer__tittle">BLOG POSTS</span>
+                        
+                        <a href="" class="footer__lorem">
+                                <img src="./assets/img/img_footer/workshop.jpg" alt="picture" class="footer__lorem-img">
+                                <div class="footer__box">
+                                    <span class="footer__lorem-name">Lorem</span>
+                                    <span class="footer__lorem-desc">Sed mattis nunc</span>
+                                </div>                                                        
+                        </a>
+                   
+                        <a href="" class="footer__ipsum">
+                                <img src="./assets/img/img_footer/gondol.jpg" alt="picture" class="footer__ipsum-img">
+                                <div class="footer__box">
+                                    <span class="footer__ipsum-name">Ipsum</span>
+                                    <span class="footer__ipsum-desc">Praes tinci sed</span>
+                                </div>                               
+                        </a>        
+                        </div>                                  
+                    </div>
+                    <div class="col l-4 m-4 c-12">
+                        <div class="footer__popular-tags">
+                            <span class="footer__tittle">POPULAR TAGS</span>
+                            <ul class="footer__list">
+                                <li class="footer__list-item footer__list-item--active">Travel</li>
+                                <li class="footer__list-item">New York</li>
+                                <li class="footer__list-item">Dinner</li>
+                                <li class="footer__list-item">Salmon</li>
+                                <li class="footer__list-item">France</li>
+                                <li class="footer__list-item">Drinks</li>
+                                <li class="footer__list-item">Ideas</li>
+                                <li class="footer__list-item">Flavors</li>
+                                <li class="footer__list-item">Cuisine</li>
+                                <li class="footer__list-item">Chicken</li>
+                                <li class="footer__list-item">Dressing</li>
+                                <li class="footer__list-item">Fried</li>
+                                <li class="footer__list-item">Fish</li>
+                                <li class="footer__list-item">Duck</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
